@@ -6,7 +6,8 @@
   "scripts": {
     "test": "NODE_ENV=test jest",
     "build": "ts -d",
-    "coverage": "codecov"
+    "coverage": "codecov",
+    "release": "semantic-release"
   },
   "dependencies": {},
   "devDependencies": {
