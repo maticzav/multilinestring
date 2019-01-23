@@ -3,9 +3,13 @@
   "description": "The missing template literal for NodeJS.",
   "version": "0.0.0-semantic-release",
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "NODE_ENV=test jest",
     "build": "ts -d",
+    "prepublishOnly": "npm-run-all build",
     "coverage": "codecov",
     "release": "semantic-release"
   },
