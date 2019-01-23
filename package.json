@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "test": "NODE_ENV=test jest",
-    "build": "ts -d",
+    "build": "tsc -d",
     "prepublishOnly": "npm-run-all build",
     "coverage": "codecov",
     "release": "semantic-release"
