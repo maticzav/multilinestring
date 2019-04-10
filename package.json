@@ -27,7 +27,7 @@
     "semantic-release": "15.13.3",
     "ts-jest": "23.10.5",
     "ts-node": "7.0.1",
-    "typescript": "3.4.2"
+    "typescript": "3.4.3"
   },
   "license": "MIT"
 }
