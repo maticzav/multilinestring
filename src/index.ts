@@ -1,6 +1,6 @@
 import * as os from 'os'
 
-export default (template: TemplateStringsArray, ...args: any[]): string => {
+export function ml(template: TemplateStringsArray, ...args: any[]): string {
   /* Compiles template string literal */
 
   const string = String.raw(template, ...args)
@@ -24,3 +24,5 @@ export default (template: TemplateStringsArray, ...args: any[]): string => {
 
   return compiledString
 }
+
+export default ml
